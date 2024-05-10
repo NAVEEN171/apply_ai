@@ -1,0 +1,139 @@
+.pricing_container{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:100%;
+    align-items: center;
+    margin-bottom:30px;
+
+
+}
+.pricing_text{
+    font-size: 25px;
+    font-weight: 700;
+}
+.pricingshow_wrapper{
+    height:fit-content;
+    width:70% ;
+    display:flex;
+    gap:20px;
+
+}
+.subscribecard{
+    width:calc((100% - 60px)/3);
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    padding:50px 20px;
+    transition: transform 0.3s ease-in-out ;
+     
+
+
+}
+.colorbackground{
+    background-color: rgb(176, 109, 238) !important;
+
+}
+.changetextcolor{
+    color:white !important;
+}
+.changebuttoncolor{
+    background-color: white !important;
+    color:rgb(176, 109, 238) !important;
+}
+.subscribename{
+    font-size: 16px;
+    color:#FF3FBE;
+
+}
+.subscribecard:hover{
+    background-color: rgb(176, 109, 238);
+    transform:scale(1.1);
+    box-shadow: none;
+    .subscribename,.subscribeamount,.subscribe_desc{
+        color:white;
+    }
+    .buybutton{
+        background-color: white;
+    color:rgb(176, 109, 238);
+    }
+
+
+}
+.subscribeamount{
+    font-size: 28px;
+    font-weight: 800;
+}
+.subscribe_desc{
+    font-size: 14px;
+    line-height:1.5rem;
+
+width:80%;
+}
+
+.buybutton{
+    outline:none;
+    border:none;
+    background-color: rgb(162, 82, 236);
+    color:white;
+    font-size: 17px;
+    width:fit-content;
+    padding:10px 30px;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+
+@media (max-width:1200px){
+    .pricingshow_wrapper{
+        width:85%;
+    }
+}
+
+
+@media (max-width:1000px){
+    .subscribe_desc{
+        line-height: 1.25rem;
+        font-size: 12px;
+        width:90%;
+    
+
+    }
+    .subscribecard{
+        padding:30px 20px;
+    }
+}
+@media (max-width:800px){
+    .subscribe_desc{
+        line-height: 1.25rem;
+        font-size: 10px;
+        width:90%;
+    
+    }}
+
+
+    @media(max-width:700px){
+        .pricingshow_wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .subscribecard{
+            width:50%;
+
+        }
+
+    }
+
+
+    @media(max-width:500px){
+        .subscribecard{
+            width:70%;
+
+        }
+    }
+
+    
