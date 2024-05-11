@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import curve from "../../../public/image/curve.png"
-import photo1 from "../../../public/image/photo1.png"
+
 
 import "./homepage.css"
 
@@ -12,14 +11,14 @@ const Homepage = () => {
         <div className='home_text'>Your Perfect Career Match Awaits</div>
         <div className='main_text'>
             <div className='text'>Unlock Your Dream Job with ApplyAI</div>
-            <Image src={curve} alt="curve" className='curve' ></Image>
+            <img src={"/image/curve.png"} alt="curve" className='curve' ></img>
             
         </div>
         <div className='subtext'>Streamline Your Job Search Effortlessly and Land Your Ideal Role Faster</div>
         <button className='subscribe'>Try It Now</button>
 
     </div>
-    <Image className='previewimage' src={photo1} alt="previewimage"></Image>
+    <img className='previewimage' src={"/image/photo1.png"} alt="previewimage"></img>
 
     </div>
     

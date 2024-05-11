@@ -1,18 +1,19 @@
 import React from 'react'
 import "./about.css"
 import Image from 'next/image'
-import circle from "../../../public/image/circle.png"
-import groups from "../../../public/image/groups.svg"
-import monitoring from "../../../public/image/monitoring.svg"
+
 
 
 const About = () => {
+  let circle="/image/circle.png";
+  let groups="/image/groups.svg";
+  let monitoring="/image/monitoring.svg";
   return (
     <div className='aboutcontainerwrapper' id={"About"}>
     <div className='about_container'>
         <div className='modelbox'>
-            <Image className='circle' src={circle} alt="circle">
-            </Image>
+            <img className='circle' src={circle} alt="circle">
+            </img>
             <div className='percentage'>75K</div>
             <div className='about_text'>Jobs Matching Your Skills</div>
             <div className='svgbox leftsvg'>

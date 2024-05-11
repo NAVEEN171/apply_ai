@@ -1,8 +1,5 @@
 import React from 'react'
-import vector from "../../../public/image/vector.png"
-import vector2 from "../../../public/image/vector2.png"
 
-import vector3 from "../../../public/image/vector3.png"
 import Image from 'next/image'
 
 import "./appfeatures.css"
@@ -14,17 +11,17 @@ const Appfeatures = () => {
         {
             name:"Personalized Job Matching",
             desc:"Our intelligent algorithm matches you with job opportunities that align with your skills, experience, and career goals",
-            logo:vector
+            logo:"/image/vector.png"
         },
         {
             name:"Effortless Application Process",
             desc:"Apply to multiple jobs with just a few clicks, saving you time and effort.",
-            logo:vector2
+            logo:"/image/vector2.png"
         },
         {
             name:"User-Friendly Interface",
             desc:"Our intuitive interface makes navigating the job search process a breeze, even for beginners.",
-            logo:vector3
+            logo:"/image/vector3.png"
         }
     ]
   return (
@@ -33,7 +30,7 @@ const Appfeatures = () => {
       <div className='cardswrapper'>
           {carddetails.map((card)=>(<div key={card.name} className='featurecard'>
             <div className='featurephoto_wrapper'>
-                 <Image className="featurephoto" src={card.logo} alt="features"></Image>
+                 <img className="featurephoto" src={card.logo} alt="features"></img>
             </div>
             <div className='featurename'>{card.name}</div>
             <div className='featuredesc'>{card.desc}</div>
