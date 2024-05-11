@@ -30,7 +30,7 @@ const Appfeatures = () => {
       <div className='cardswrapper'>
           {carddetails.map((card)=>(<div key={card.name} className='featurecard'>
             <div className='featurephoto_wrapper'>
-                 <img className="featurephoto" src={card.logo} alt="features"></img>
+                 <Image height={35} width={35} className="featurephoto" src={card.logo} alt="features"></Image>
             </div>
             <div className='featurename'>{card.name}</div>
             <div className='featuredesc'>{card.desc}</div>

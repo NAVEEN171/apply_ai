@@ -75,9 +75,9 @@ const Navbar = () => {
     <Fragment>
     <div className='Navbarwrapper' >
       <div className='Navbar'>
-        <img className='logo' src={"/image/logo.png"}   alt="aiapplylogo" onClick={()=>{location.reload()}}>
+        <Image className='logo' width={124} height={54} src={"/image/logo.png"}   alt="aiapplylogo" onClick={()=>{location.reload()}}>
 
-        </img>
+        </Image>
         <div className='optionswrapper'>
         <div className='options'>
                {

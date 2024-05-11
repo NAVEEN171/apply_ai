@@ -12,7 +12,7 @@ const About = () => {
     <div className='aboutcontainerwrapper' id={"About"}>
     <div className='about_container'>
         <div className='modelbox'>
-            <img className='circle' src={circle} alt="circle">
+            <img className='circle'  src={circle} alt="circle">
             </img>
             <div className='percentage'>75K</div>
             <div className='about_text'>Jobs Matching Your Skills</div>

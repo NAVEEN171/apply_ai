@@ -33,7 +33,7 @@ const Testimonials = () => {
                   tesmonialsdata.map((card)=>(
                     <div className='tesimonials_card' key={card.name}>
                       <div className='profilewrapper'>
-                        <img src={card.photo} className='testimonialphoto' alt="profilephoto"></img>
+                        <Image src={card.photo} width={56} height={56} className='testimonialphoto' alt="profilephoto"></Image>
                         <div className='headers'>
                           <div className='header1'>{card.name}</div>
                           <div className='header2'>{card.designation}</div>
