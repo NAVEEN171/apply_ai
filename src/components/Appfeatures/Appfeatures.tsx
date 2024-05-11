@@ -1,8 +1,8 @@
 import React from 'react'
-import vector from "../images/vector.png"
-import vector2 from "../images/vector2.png"
+import vector from "../image/vector.png"
+import vector2 from "../image/vector2.png"
 
-import vector3 from "../images/vector3.png"
+import vector3 from "../image/vector3.png"
 import Image from 'next/image'
 
 import "./appfeatures.css"

@@ -1,9 +1,9 @@
 import React from 'react'
 import "./about.css"
 import Image from 'next/image'
-import circle from "../images/circle.png"
-import groups from "../images/groups.svg"
-import monitoring from "../images/monitoring.svg"
+import circle from "../image/circle.png"
+import groups from "../image/groups.svg"
+import monitoring from "../image/monitoring.svg"
 
 
 const About = () => {
