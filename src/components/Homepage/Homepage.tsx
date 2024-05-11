@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import curve from "../image/curve.png"
-import photo1 from "../image/photo1.png"
+import curve from "../../../public/image/curve.png"
+import photo1 from "../../../public/image/photo1.png"
 
 import "./homepage.css"
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import "./testimonilas.css"
 import Image from 'next/image'
-import photo1 from "../image/person1.png"
-import photo3 from "../image/person3.png"
+import photo1 from "../../../public/image/person1.png"
+import photo3 from "../../../public/image/person3.png"
 
-import photo2 from "../image/person2.png"
+import photo2 from "../../../public/image/person2.png"
 
 
 const Testimonials = () => {

@@ -2,7 +2,7 @@
 import React,{Fragment,useState,MouseEvent} from 'react'
 import "./navbar.css"
 import Image from 'next/image'
-import logo from "../image/logo.png"
+import logo from "../../../public/image/logo.png"
 import { useRouter } from 'next/navigation'
 import { SignedIn, SignedOut, UserButton, UserProfile } from '@clerk/nextjs'
 const Navbar = () => {
