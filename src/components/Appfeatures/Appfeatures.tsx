@@ -25,8 +25,9 @@ const Appfeatures = () => {
         }
     ]
   return (
+    <div id="Features"  className='appfeautures_wrapper'>
     <div className='appfeatures_container' >
-      <div className='appfeatures' id="Features">App Features</div>
+      <div className='appfeatures'>App Features</div>
       <div className='cardswrapper'>
           {carddetails.map((card)=>(<div key={card.name} className='featurecard'>
             <div className='featurephoto_wrapper'>
@@ -38,6 +39,7 @@ const Appfeatures = () => {
 
           </div>))}
       </div>
+    </div>
     </div>
   )
 }

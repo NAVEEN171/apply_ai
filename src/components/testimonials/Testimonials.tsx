@@ -24,8 +24,8 @@ const Testimonials = () => {
     }
   ]
   return (
-    <div className='testimonials_container' >
-               <div className='testimonials_title' id="Testimonials">
+    <div className='testimonials_container' id="Testimonials">
+               <div className='testimonials_title'>
                 Testimonials
                 </div>     
                 <div className='testimonials_cards'>

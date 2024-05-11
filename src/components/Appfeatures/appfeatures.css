@@ -5,7 +5,6 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-top:130px;
 }
 .appfeatures{
     margin-top:10px;
@@ -17,6 +16,9 @@
     width:70%;
     display:flex;
     gap:20px;
+}
+.appfeautures_wrapper{
+    padding-top: 50px;
 }
 .featurecard{
     margin-top:20px;

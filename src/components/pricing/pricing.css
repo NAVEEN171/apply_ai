@@ -1,5 +1,4 @@
 .pricing_container{
-    margin-top: 100px;
     display:flex;
     flex-direction: column;
     gap:20px;
@@ -8,6 +7,9 @@
     margin-bottom:30px;
 
 
+}
+.pricing_wrapper{
+    padding-top: 50px;
 }
 .pricing_text{
     font-size: 25px;
