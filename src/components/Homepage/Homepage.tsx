@@ -10,8 +10,11 @@ const Homepage = () => {
     <div className='home_container'>
         <div className='home_text'>Your Perfect Career Match Awaits</div>
         <div className='main_text'>
-            <div className='text'>Unlock Your Dream Job with ApplyAI</div>
-            <Image width={135} height={14} src={"/image/curve.png"} alt="curve" className='curve' ></Image>
+            <div className='text'>Unlock Your Dream Job with </div>
+            <span className='text2'>ApplyAI
+            <Image width={130} height={14} src={"/image/curve.png"} alt="curve" className='curve' ></Image>
+
+            </span>
             
         </div>
         <div className='subtext'>Streamline Your Job Search Effortlessly and Land Your Ideal Role Faster</div>
