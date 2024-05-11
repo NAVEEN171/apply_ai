@@ -17,6 +17,10 @@ body{
   width: 10px;
   height:50px;
 }
+.startdiv{
+  display:flex;
+  flex-direction: column;
+}
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(#642Bff,#ff22e6);
@@ -26,6 +30,7 @@ body{
   overflow-y: auto;
   height:calc(100vh - 70px);
   scroll-behavior: smooth;
+  margin-top: 70px;
 }
 
 .sign_in,.sign_up{

@@ -11,7 +11,7 @@ import { UserButton } from '@clerk/nextjs'
 
 const Landingpage = () => {
   return (
-    <div>
+    <div className='startdiv'>
       <Navbar/>
       <div className='bottomcontainer'>
       <Homepage />
