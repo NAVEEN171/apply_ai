@@ -11,6 +11,7 @@
     cursor: pointer;
 }
 .Navbar{
+    color:#2a2a2a;
     width:95%;
     height:100%;
     display:flex;
@@ -36,7 +37,7 @@
     cursor:pointer;
     text-decoration: none;
 }
-.option:active{
+.option:active,.optionside:active{
     color:#FF3FBE;
 
 }
