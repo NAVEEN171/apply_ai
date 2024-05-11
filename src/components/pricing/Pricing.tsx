@@ -28,8 +28,8 @@ const Pricing = () => {
               setselected(index);
     }
   return (
-    <div className='pricing_container' id="Pricing">
-          <div className='pricing_text'>Pricing</div>
+    <div className='pricing_container' >
+          <div className='pricing_text' id="Pricing">Pricing</div>
           <div className='pricingshow_wrapper'>
             {
                 subscriptiontypes.map((type,index)=>(<div key={type.name} onMouseEnter={()=>{changedesign(index)}} className={'subscribecard'}>
