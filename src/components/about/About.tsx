@@ -2,7 +2,7 @@ import React from 'react'
 import "./about.css"
 import Image from 'next/image'
 import circle from "../../../public/images/circle.png"
-import groups from "../../../publicimages/groups.svg"
+import groups from "../../../public/images/groups.svg"
 import monitoring from "../../../public/images/monitoring.svg"
 
 

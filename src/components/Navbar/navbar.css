@@ -30,6 +30,12 @@
     cursor:pointer;
     text-decoration: none;
 }
+.optionside{
+    font-size:18px ;
+    padding-top:20px;
+    cursor:pointer;
+    text-decoration: none;
+}
 .option:active{
     color:#FF3FBE;
 
@@ -64,4 +70,70 @@ transition: color 0.3ms;
     display:flex;
     gap:24px;
     align-items: center;
+}
+
+.bar{
+    width:20px;
+    height:3px;
+    background-color:black;
+
+
+}
+
+.navbar_side{
+    z-index:5;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    height:40px;
+    width:40px;
+    display:none;
+
+}
+@keyframes slideIn {
+    from{
+        width:0px;
+    }
+    to{
+        width:50%;
+    }
+    
+}
+
+.options2{
+    padding-top: 70px;
+    font-size: 20px;
+    z-index: 4;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:50%;
+    top:0px;
+    padding-left: 30px;
+
+    right:0px;
+    background-color: white;
+    animation:slideIn 0.3s ease-in-out;
+
+}
+
+.bar{
+    transition:all 0.3s ease-in-out;
+}
+
+
+@media (max-width:800px) {
+    .options{
+        display:none;
+    }
+
+    .navbar_side{
+        display:flex;
+    }
+
+    
 }
